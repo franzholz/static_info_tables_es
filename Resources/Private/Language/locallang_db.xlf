@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-02-21T01:35:44Z" product-name="static_info_tables_es">
+		<header/>
+		<body>
+			<trans-unit id="static_territories_item.tr_name_es" xml:space="preserve">
+				<source>Name (ES):</source>
+				<target>Name (ES):</target>
+			</trans-unit>
+			<trans-unit id="static_countries_item.cn_official_name_es" xml:space="preserve">
+				<source>Official name (ES):</source>
+				<target>Official name (ES):</target>
+			</trans-unit>
+			<trans-unit id="static_countries_item.cn_short_es" xml:space="preserve">
+				<source>Short name (ES):</source>
+				<target>Short name (ES):</target>
+			</trans-unit>
+			<trans-unit id="static_country_zones_item.zn_name_es" xml:space="preserve">
+				<source>Name (ES):</source>
+				<target>Name (ES):</target>
+			</trans-unit>
+			<trans-unit id="static_languages_item.lg_name_es" xml:space="preserve">
+				<source>Name (ES):</source>
+				<target>Name (ES):</target>
+			</trans-unit>
+			<trans-unit id="static_currencies_item.cu_name_es" xml:space="preserve">
+				<source>Name (ES):</source>
+				<target>Name (ES):</target>
+			</trans-unit>
+			<trans-unit id="static_currencies_item.cu_sub_name_es" xml:space="preserve">
+				<source>Sub name (ES):</source>
+				<target>Sub name (ES):</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
