@@ -1,4 +1,9 @@
-2015-08-06  Franz Holzinger  <kontakt@fholzinger.com>
+2015-09-02  Franz Holzinger  <franz@ttproducts.de>
+	* Add countries: CS
+	* Modify countries: AX, GG, BQ
+	* Add currencies: GHC, MZM, ROL, TMM
+
+2015-08-06  Franz Holzinger  <franz@ttproducts.de>
 	* update for static_info_tables 6.2.1 and TYPO3 6.2 and 7.0
 
 2014-02-25  Romain Hobsterdre  <hobsty@gmail.com>
