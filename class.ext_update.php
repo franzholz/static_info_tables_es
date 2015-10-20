@@ -21,6 +21,10 @@
 *
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
+
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
+
 /**
  * Class for updating the db
  */
@@ -30,10 +34,10 @@ class ext_update {
 	 *
 	 * @return string HTML
 	 */
-	public function main()	{
+	public function main() {
 		$content = '';
 		/** @var \TYPO3\CMS\Extbase\Object\ObjectManager $objectManager */
-		$objectManager = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Object\\ObjectManager');
+		$objectManager = GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Object\\ObjectManager');
 
 		// Clear the class cache
 		/** @var \SJBR\StaticInfoTables\Cache\ClassCacheManager $classCacheManager */
@@ -45,7 +49,7 @@ class ext_update {
 		$databaseUpdateUtility = $objectManager->get('SJBR\\StaticInfoTables\\Utility\\DatabaseUpdateUtility');
 		$databaseUpdateUtility->doUpdate('static_info_tables_es');
 
-		$content.= '<p>' . \TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables') . ' static_info_tables_es.</p>';
+		$content.= '<p>' . LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables') . ' static_info_tables_es.</p>';
 		return $content;
 	}
 
@@ -53,4 +57,3 @@ class ext_update {
 		return TRUE;
 	}
 }
-?>
