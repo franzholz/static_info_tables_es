@@ -25,38 +25,38 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /**
- * The Country Zone model
- *
- * @copyright Copyright belongs to the respective authors
- * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
- */
+* The Country Zone model
+*
+* @copyright Copyright belongs to the respective authors
+* @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
+*/
 class CountryZone extends AbstractEntity {
-	/**
-	 * Spanish name of the country zone
-	 * @var string
-	 */
-	protected $nameEs = '';
+    /**
+    * Spanish name of the country zone
+    * @var string
+    */
+    protected $nameEs = '';
 
-	/**
-	 * Sets the Spanish name.
-	 *
-	 * @param string $nameEs
-	 *
-	 * @return void
-	 */
-	public function setNameEs($nameEs) {
-		$this->nameEs = $nameEs;
-	}
+    /**
+    * Sets the Spanish name.
+    *
+    * @param string $nameEs
+    *
+    * @return void
+    */
+    public function setNameEs($nameEs) {
+        $this->nameEs = $nameEs;
+    }
 
-	/**
-	 * Returns Spanish name. If empty returns the localName.
-	 *
-	 * @return string
-	 */
-	public function getNameEs() {
-		if ($this->nameEs === '') {
-			return $this->getLocalName();
-		}
-		return $this->nameEs;
-	}
+    /**
+    * Returns Spanish name. If empty returns the localName.
+    *
+    * @return string
+    */
+    public function getNameEs() {
+        if ($this->nameEs === '') {
+            return $this->getLocalName();
+        }
+        return $this->nameEs;
+    }
 }

@@ -25,61 +25,61 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /**
- * The Currency model
- *
- * @copyright Copyright belongs to the respective authors
- * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
- */
+* The Currency model
+*
+* @copyright Copyright belongs to the respective authors
+* @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
+*/
 class Currency extends AbstractEntity {
-	/**
-	 * Spanish name of the currency
-	 * @var string
-	 */
-	protected $nameEs = '';
+    /**
+    * Spanish name of the currency
+    * @var string
+    */
+    protected $nameEs = '';
 
-	/**
-	 * Spanish name of the currency subdivision unit
-	 * @var string
-	 */
-	protected $subdivisionNameEs = '';
+    /**
+    * Spanish name of the currency subdivision unit
+    * @var string
+    */
+    protected $subdivisionNameEs = '';
 
-	/**
-	 * Sets the Spanish name of the currency
-	 *
-	 * @param string $nameEs
-	 *
-	 * @return void
-	 */
-	public function setNameEs($nameEs) {
-		$this->nameEs = $nameEs;
-	}
+    /**
+    * Sets the Spanish name of the currency
+    *
+    * @param string $nameEs
+    *
+    * @return void
+    */
+    public function setNameEs($nameEs) {
+        $this->nameEs = $nameEs;
+    }
 
-	/**
-	 * Gets the Spanish name of the currency
-	 *
-	 * @return string
-	 */
-	public function getNameEs() {
-		return $this->nameEs;
-	}
+    /**
+    * Gets the Spanish name of the currency
+    *
+    * @return string
+    */
+    public function getNameEs() {
+        return $this->nameEs;
+    }
 
-	/**
-	 * Sets the Spanish name of the currency subdivision
-	 *
-	 * @param string $subdivisionNameEs
-	 *
-	 * @return void
-	 */
-	public function setSubdivisionNameEs($subdivisionNameEs) {
-		$this->subdivisionNameEs = $subdivisionNameEs;
-	}
+    /**
+    * Sets the Spanish name of the currency subdivision
+    *
+    * @param string $subdivisionNameEs
+    *
+    * @return void
+    */
+    public function setSubdivisionNameEs($subdivisionNameEs) {
+        $this->subdivisionNameEs = $subdivisionNameEs;
+    }
 
-	/**
-	 * Gets the Spanish name of the currency subdivision
-	 *
-	 * @return string
-	 */
-	public function getSubdivisionNameEs() {
-		return $this->subdivisionNameEs;
-	}
+    /**
+    * Gets the Spanish name of the currency subdivision
+    *
+    * @return string
+    */
+    public function getSubdivisionNameEs() {
+        return $this->subdivisionNameEs;
+    }
 }
