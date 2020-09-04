@@ -252,6 +252,7 @@ UPDATE static_countries SET cn_short_es='Bonaire, San Eustaquio y Saba' WHERE cn
 UPDATE static_countries SET cn_short_es='Curazao' WHERE cn_iso_2='CW';
 UPDATE static_countries SET cn_short_es='Sint Maarten' WHERE cn_iso_2='SX';
 UPDATE static_countries SET cn_short_es='Sudán del Sur' WHERE cn_iso_2='SS';
+UPDATE static_countries SET cn_short_fr='Kosovo' WHERE cn_iso_2='XK';
 
 ## static_currencies
 
