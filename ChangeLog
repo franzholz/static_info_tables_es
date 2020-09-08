@@ -1,3 +1,6 @@
+2020-09-08  Franz Holzinger  <franz@ttproducts.de>
+    * Merge pull request #3: Add Kosovo
+
 2019-11-27  Franz Holzinger  <franz@ttproducts.de>
     * compatibility with TYPO3 10: Add the file Configuration/Extbase/Persistence/Classes.php.
 
