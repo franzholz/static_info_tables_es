@@ -1,5 +1,5 @@
 {
-  "name": "sjbr/static-info-tables-es",
+  "name": "jambagecom/static-info-tables-es",
   "type": "typo3-cms-extension",
   "description": "Spanish (es) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
   "license": "GPL-2.0-or-later",
@@ -29,7 +29,7 @@
     "typo3-ter/static-info-tables-es": "self.version"
   },
   "require": {
-    "php": "^7.0",
+    "php": "^7.2",
     "typo3/cms-core": "^8.7 || ^9.5 || ^10.4",
     "sjbr/static-info-tables": "^6.7"
   },
