@@ -1,3 +1,6 @@
+2021-11-30  Franz Holzinger  <franz@ttproducts.de>
+    * compatibility with TYPO3 11: No other modifications.
+
 2021-07-13  Franz Holzinger  <franz@ttproducts.de>
     * fix issue #5: Use the domain jambagecom in the composer.json.
 
@@ -9,7 +12,7 @@
     * Simplification of the TCA files.
 
 2020-09-08  Franz Holzinger  <franz@ttproducts.de>
-    * remove unnecessary part from SQL WHERE:  
+    * remove unnecessary part from SQL WHERE:
         AND lg_country_iso_2=''
         ,cu_sub_name_es=''
     * Merge pull request #3: Add Kosovo
