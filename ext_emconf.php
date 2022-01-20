@@ -4,7 +4,7 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'Static Info Tables (es)',
     'description' => 'Spanish (es) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
     'category' => 'misc',
-    'version' => '6.7.6',
+    'version' => '6.7.7',
     'state' => 'stable',
     'uploadfolder' => 0,
     'createDirs' => '',
@@ -14,9 +14,9 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'jambage.com',
     'constraints' => [
     'depends' => [
-			'php' => '7.3.0-7.4.99',
-            'typo3' => '8.7.0-11.5.99',
+            'typo3' => '10.4.0-11.5.99',
             'static_info_tables' => '6.7.3-11.5.99',
+            'addons_em' => '0.5.0-0.5.99',
         ],
         'conflicts' => [
         ],
