@@ -10,4 +10,4 @@ It is an enhancement for the extension static_info_tables.
 
 ## Installation
 
-The documentation is available on [https://docs.typo3.org/.../static-info-tables-es/](https://docs.typo3.org/p/jambagecom/static-info-tables-es/11.5/en-us/Installation/Index.html)
+The documentation is available on [https://docs.typo3.org/.../static-info-tables-es/...](https://docs.typo3.org/p/jambagecom/static-info-tables-es/main/en-us/Installation/Index.html)

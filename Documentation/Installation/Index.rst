@@ -29,4 +29,4 @@ Thus, when the "Static Info Tables" was updated it is sufficient to call the Spa
 
 	Extension Manager with static_info_tables and static_info_tables_es
 
-	In the actions column, the first icon of "Static Info Tables" will show its configuration options (not available for "Static Infos Tables (es)"). The second icon will run the update script.
+	In the actions column, the first icon of "Static Info Tables" will show its configuration options (not available for "Static Info Tables (es)"). The second icon will run the update script.
