@@ -13,7 +13,7 @@ The extension is simply installed using the Extension Manager.
 
 When installing for the **very first time**, the database updates are performed **automatically**. When **re-installing** after an uninstall or when **updating**, the update script needs to be run **manually** in the Extension Manager.
 
-**Note:** It is not recommended to change data manually since changes will be lost the next time you run the update script. If you find any data error please report them on https://github.com/franzholz/static_info_tables_da/issues .
+**Note:** It is not recommended to change data manually since changes will be lost the next time you run the update script. If you find any data error please report them on https://github.com/franzholz/static_info_tables_es/issues .
 
 Update script
 -------------
