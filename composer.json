@@ -28,7 +28,11 @@
   },
   "extra": {
     "typo3/cms": {
-      "extension-key": "static_info_tables_es"
+      "extension-key": "static_info_tables_es",
+      "version": "12.4.1",
+      "Package": {
+        "providesPackages": {}
+      }
     }
   }
 }
